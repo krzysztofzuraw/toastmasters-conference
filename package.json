@@ -1,0 +1,14 @@
+{
+  "name": "toastmasters-conference",
+  "version": "1.0.0",
+  "description": "Website for TM Conference in Wrocław",
+  "main": "script.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "author": "Krzysztof Żuraw",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.19.0"
+  }
+}
