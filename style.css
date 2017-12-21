@@ -1,1 +1,16 @@
+.grid-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "header" "about" "speakers" "agenda" "venue" "sponsors" "team";
+}
 
+.header {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #dfdbe5;
+  background: url(header-background.svg);
+}
+
+/* font-family: "Lato", sans-serif; */
