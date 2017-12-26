@@ -58,6 +58,41 @@ a {
 .about-logo {
   color: #3275c3;
   fill: currentColor;
-  width: 50%;
-  height: 100%;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.meet-speakers {
+  background: #333a40;
+}
+
+.speakers {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.speakers-title {
+  border-bottom: 2px solid rgba(185, 205, 222, 0.2);
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 1rem;
+}
+
+.speakers-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.speaker {
+  margin-top: 3rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-flex;
 }
