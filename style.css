@@ -118,3 +118,58 @@ a {
 .speaker-info a {
   color: rgba(206, 153, 255, 0.8);
 }
+
+.full-agenda {
+  background: #e9eef3;
+}
+
+.agenda {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Lato", sans-serif;
+}
+
+.agenda-title {
+  border-bottom: 2px solid #b9cdde;
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.agenda-container {
+  display: grid;
+  grid-template: "day day" auto;
+  grid-gap: 1rem;
+}
+
+.agenda-day h2 {
+  border-bottom: 1px solid #b9cdde;
+  padding-bottom: 0.5rem;
+}
+
+.agenda-day > ul {
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #b9cdde;
+}
+
+.event-time {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.event-icon > svg {
+  width: 2.5%;
+}
+
+.event-icon {
+  margin-left: 0.5rem;
+}
+
+.event-desc {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
