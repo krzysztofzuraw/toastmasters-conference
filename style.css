@@ -40,6 +40,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   font-family: "Lato", sans-serif;
+  padding-bottom: 2.5rem;
 }
 
 .about-title {
@@ -128,6 +129,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   font-family: "Lato", sans-serif;
+  padding-bottom: 2.5rem;
 }
 
 .agenda-title {
@@ -153,23 +155,60 @@ a {
   padding: 0;
   list-style: none;
   border-bottom: 1px solid #b9cdde;
+  padding-bottom: 11px;
 }
 
 .event-time {
   font-weight: 700;
   font-size: 1.25rem;
-}
-
-.event-icon > svg {
-  width: 2.5%;
-}
-
-.event-icon {
-  margin-left: 0.5rem;
+  float: left;
 }
 
 .event-desc {
+  background-image: url("cheveron-outline-right.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 14px;
+  margin-left: 66px;
+  padding-left: 30px;
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.5;
+}
+
+.afterparty {
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.venue {
+  font-family: "Lato", sans-serif;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 2.5rem;
+  color: #ffffff;
+}
+
+.venue-container {
+  background: #333a40;
+}
+
+.venue-title {
+  border-bottom: 2px solid rgba(185, 205, 222, 0.2);
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.venue-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.venue-logo {
+  padding-top: 1rem;
+  align-self: center;
 }
