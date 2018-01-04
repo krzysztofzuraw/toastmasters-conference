@@ -6,6 +6,39 @@ a {
   text-decoration: none;
 }
 
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-container {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 5px auto;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-item a {
+  color: #222426;
+}
+
+.nav-item a:hover {
+  color: #8b23e6;
+}
+
 .grid-wrapper {
   display: grid;
   grid-template-rows: auto;
@@ -157,8 +190,7 @@ a {
   border-bottom: 1px solid #b9cdde;
   padding-bottom: 11px;
 }
-
-.event-time {
+team-member-info .event-time {
   font-weight: 700;
   font-size: 1.25rem;
   float: left;
