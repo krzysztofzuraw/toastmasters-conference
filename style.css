@@ -28,12 +28,44 @@ h1 {
   font-size: 1.25rem;
 }
 
-.fs225 {
-  font-size: 2.25rem;
+@media (max-width: 414px) {
+  .fs225 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .fs225 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .fs225 {
+    font-size: 2.25rem;
+  }
 }
 
 .main-text {
   font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 414px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar {
+    display: flex;
+  }
 }
 
 .navbar {
@@ -42,7 +74,6 @@ h1 {
   top: 0;
   z-index: 1;
   background-color: #fff;
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -73,11 +104,30 @@ h1 {
 }
 
 .box {
-  max-width: 1140px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-bottom: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 
 .header {
@@ -123,6 +173,27 @@ h1 {
   display: flex;
 }
 
+@media (max-width: 576px) {
+  .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .content {
+    flex-wrap: nowrap;
+    justify-content: unset;
+  }
+}
+
 .content-logo {
   color: #3275c3;
   fill: currentColor;
@@ -137,6 +208,18 @@ h1 {
 .speakers-title {
   border-bottom: 2px solid rgba(185, 205, 222, 0.2);
   color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .speakers-info {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .speakers-info {
+    flex-direction: column;
+  }
 }
 
 .speakers-info {
