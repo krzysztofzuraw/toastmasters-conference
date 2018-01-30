@@ -254,6 +254,16 @@ h1 {
   border-radius: 5px;
 }
 
+.flag {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.add-content {
+  display: flex;
+  align-items: center;
+}
+
 .content-text {
   color: #5a6470;
 }
