@@ -440,6 +440,10 @@ h1 {
   max-width: 50%;
 }
 
+.img-link {
+  text-align: center;
+}
+
 .accomodation-container {
   background: #e9eef3;
 }
@@ -470,7 +474,7 @@ h1 {
 }
 
 .hotel-sponsor {
-  width: 15%;
+  width: 40%;
 }
 
 .meet-team {
