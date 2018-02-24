@@ -368,7 +368,7 @@ h1 {
 }
 
 .speaker-info p {
-  margin: 0px;
+  margin-bottom: 1rem;
 }
 
 .speaker-info a {
