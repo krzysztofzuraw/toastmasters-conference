@@ -219,13 +219,14 @@ h1 {
 
 .header {
   font-family: "Rubik", sans-serif;
-  display: block;
   text-align: center;
   align-content: center;
   justify-content: center;
   padding-bottom: 2.5rem;
+  height: 100%;
   background-repeat: no-repeat;
-  background-image: linear-gradient(#26c965, #ffff);
+  background-image: url("./assets/img/cover5.jpg");
+  background-size: cover;
 }
 
 .header-content {
@@ -233,6 +234,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   align-content: space-between;
+  margin-top: 12rem;
 }
 
 .promo-video {
@@ -263,7 +265,7 @@ h1 {
 }
 
 .content-text {
-  color: #5a6470;
+  color: #333333;
 }
 
 .content {
