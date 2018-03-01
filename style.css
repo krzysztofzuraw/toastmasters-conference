@@ -225,8 +225,44 @@ h1 {
   padding-bottom: 2.5rem;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url("./assets/img/cover5.jpg");
+  background-image: url("./assets/img/cover-w1900.jpg");
   background-size: cover;
+}
+
+@media (min-width: 1281px) {
+  .header {
+    background-image: url("./assets/img/cover-w1900.jpg");
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header {
+    background-image: url("./assets/img/cover-w1400.jpg");
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    background-image: url("./assets/img/cover-w1000.jpg");
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .header {
+    background-image: url("./assets/img/cover-w600.jpg");
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    background-image: url("./assets/img/cover-w600.jpg");
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    background-image: url("./assets/img/cover-w600.jpg");
+  }
 }
 
 .header-content {
@@ -309,6 +345,31 @@ h1 {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.summary-icons {
+  display: inline-flex;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .summary-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .summary-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .summary-icons {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -424,7 +485,6 @@ h1 {
 }
 
 .event-desc {
-  background-image: url("cheveron-outline-right.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 20px 14px;
