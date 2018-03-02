@@ -59,12 +59,16 @@ h1 {
 @media (min-width: 481px) and (max-width: 767px) {
   .fs225 {
     font-size: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .fs225 {
     font-size: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -340,6 +344,8 @@ h1 {
   .content {
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -347,6 +353,8 @@ h1 {
   .content {
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -447,7 +455,6 @@ h1 {
 }
 
 .agenda-container {
-  display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
   grid-template-areas:
@@ -457,6 +464,46 @@ h1 {
     "header2 header2"
     "day2 day2";
   grid-gap: 1rem;
+}
+
+@media (min-width: 1281px) {
+  .agenda-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .agenda-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .agenda-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .agenda-container {
+    display: grid;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .agenda-container {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .agenda-container {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .first-day-header {
@@ -513,6 +560,20 @@ h1 {
   flex-direction: column;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .venue-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .venue-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 .venue-logo {
   padding-top: 1rem;
   align-self: center;
@@ -534,6 +595,20 @@ h1 {
 .accomodation-content {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .accomodation-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .accomodation-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .accomodation-logo {
