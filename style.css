@@ -229,7 +229,6 @@ h1 {
   padding-bottom: 2.5rem;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url("./assets/img/cover-w1900.jpg");
   background-size: cover;
 }
 
@@ -380,6 +379,18 @@ h1 {
   .summary-icons {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .summary-icon {
+    width: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .summary-icon {
+    width: 200px;
   }
 }
 
@@ -685,4 +696,40 @@ footer {
 
 .organizer-contact {
   padding-bottom: 0.5rem;
+}
+
+@media (min-width: 1281px) {
+  .conf-logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .conf-logo {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .conf-logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .conf-logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .conf-logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .conf-logo {
+    width: 100%;
+  }
 }
