@@ -281,6 +281,20 @@ h1 {
   height: 360px;
 }
 
+@media (min-width: 481px) and (max-width: 767px) {
+  .promo-video {
+    width: unset;
+    height: unset;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .promo-video {
+    width: unset;
+    height: unset;
+  }
+}
+
 .button {
   margin-top: 3rem;
   font-size: 16px;
@@ -313,15 +327,15 @@ h1 {
 
 @media (min-width: 1281px) {
   .content {
-    flex-wrap: nowrap;
-    justify-content: unset;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .content {
-    flex-wrap: nowrap;
-    justify-content: unset;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -634,11 +648,23 @@ h1 {
   flex-direction: column;
 }
 
-.google-sponsor {
+.sponsor-main {
   width: 40%;
 }
 
-.hotel-sponsor {
+@media (min-width: 481px) and (max-width: 767px) {
+  .sponsor-main {
+    width: unset;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .sponsor-main {
+    width: unset;
+  }
+}
+
+.sponsor {
   width: 40%;
 }
 
