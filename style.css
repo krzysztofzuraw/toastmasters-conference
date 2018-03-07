@@ -668,6 +668,12 @@ h1 {
   width: 40%;
 }
 
+.sponsors-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .meet-team {
   background: #333a40;
 }
