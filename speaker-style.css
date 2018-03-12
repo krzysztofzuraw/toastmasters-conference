@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.speaker-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas: "title" "about" "video";
+}
