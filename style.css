@@ -770,3 +770,18 @@ footer {
   pointer-events: none;
   cursor: default;
 }
+
+.speaker-rest {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.speaker-long-description {
+  padding-left: 20px;
+}
+
+.speaker-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
