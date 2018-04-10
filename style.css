@@ -779,6 +779,7 @@ footer {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .speaker-long-description {
