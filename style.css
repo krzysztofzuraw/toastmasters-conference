@@ -319,6 +319,7 @@ h1 {
 
 .content-text {
   color: #333333;
+  max-width: 1300px;
 }
 
 .content {
@@ -787,5 +788,11 @@ footer {
 .speaker-video {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.accomodation-pictures {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
