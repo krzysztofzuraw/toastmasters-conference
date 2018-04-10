@@ -671,6 +671,9 @@ h1 {
 .sponsor {
   width: 90%;
 }
+.accomodation_image {
+  width: 40%;
+}
 
 .sponsors-other {
   display: flex;
